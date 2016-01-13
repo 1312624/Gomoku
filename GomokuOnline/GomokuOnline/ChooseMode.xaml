@@ -1,0 +1,15 @@
+﻿<Window x:Class="Gomoku.ChooseMode"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Gomoku-Mode" Height="450" Width="450" x:Name="ModeWindow" WindowStartupLocation="CenterScreen" >
+    <Grid>
+        <Image Source="/Icon/icon.png" Margin="0,10,0,-10" />
+        <Button x:Name="btPlayer" Height="100" Margin="60,62,231,257" Content="Player VS Player" FontSize="18" FontFamily="Arial" BorderBrush="Black" BorderThickness="0" Background="Transparent" Foreground="#4FC3F7" FontWeight="Bold" Click="Mode_Click"/>
+        <Button x:Name="btAI" Height="100" Margin="260,62,28,257" Content="Player VS Com" FontSize="18" FontFamily="Arial"  BorderBrush="Black" BorderThickness="0" Background="Transparent" Foreground="#4FC3F7"
+ FontWeight="Bold" Click="Mode_Click"/>
+        <Button x:Name="btPlayerOnl" Height="100" Margin="57,254,231,65" Content="P vs P(Online)" FontSize="18" FontFamily="Arial"  BorderBrush="Black" BorderThickness="0" Background="Transparent" Foreground="#4FC3F7"
+ FontWeight="Bold" Click="Mode_Click"/>
+        <Button x:Name="btAIOnl" Height="100" Margin="231,254,28,65" Content="PC vs P(Online)" FontSize="18" FontFamily="Arial"  BorderBrush="Black" BorderThickness="0" Background="Transparent" Foreground="#4FC3F7"
+ FontWeight="Bold" Click="Mode_Click"/>
+    </Grid>
+</Window>

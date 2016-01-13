@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GomokuOnline", "GomokuOnline\GomokuOnline.csproj", "{ED144EAB-90A0-4242-BB73-7365B2FDC617}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED144EAB-90A0-4242-BB73-7365B2FDC617}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED144EAB-90A0-4242-BB73-7365B2FDC617}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED144EAB-90A0-4242-BB73-7365B2FDC617}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED144EAB-90A0-4242-BB73-7365B2FDC617}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
